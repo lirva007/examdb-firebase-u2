@@ -1,21 +1,22 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyDzI42OWO37frfJ-G8Svs-L7wlU4Z-Ft-Q",
-    authDomain: "adminbasedatos-40c56.firebaseapp.com",
-    projectId: "adminbasedatos-40c56",
-    storageBucket: "adminbasedatos-40c56.appspot.com",
-    messagingSenderId: "628502551851",
-    appId: "1:628502551851:web:76ab1b508fb134b9feb96e"
-  };
-  // Initialize Firebase
-  firebase.initializeApp({
-    apiKey: "AIzaSyDzI42OWO37frfJ-G8Svs-L7wlU4Z-Ft-Q",
-    authDomain: "adminbasedatos-40c56.firebaseapp.com",
-    projectId: "adminbasedatos-40c56",
-  });
-  var db = firebase.firestore();
+  apiKey: "AIzaSyCOdQx_ljcS5G46hlVhkW8isd-H6bGDn9w",
+  authDomain: "adminbdsesion-21648.firebaseapp.com",
+  projectId: "adminbdsesion-21648",
+  storageBucket: "adminbdsesion-21648.appspot.com",
+  messagingSenderId: "199765807657",
+  appId: "1:199765807657:web:14bd3caa2283c009a8c238"
+};
+// Initialize Firebase
+firebase.initializeApp({ 
+  apiKey: "AIzaSyCOdQx_ljcS5G46hlVhkW8isd-H6bGDn9w",
+  authDomain: "adminbdsesion-21648.firebaseapp.com",
+  projectId: "adminbdsesion-21648",
+});
 
-  observador();
+var db = firebase.firestore();
+
+observador();
 
 function registro(){
 
